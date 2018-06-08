@@ -1,0 +1,22 @@
+***Tools: microSD card(8GB, I used 64GB because that's all I have, which is an overkill), a card reader, raspberry pi(2), HDMI cable, USB charger, keyboard, mouse, a laptop, Ethernet cable(optional).
+
+Step one:
+***Download latest Raspbian (or any lite operating system you want)
+***Format the microSD on laptop. If use Window, use #guiformat. If Linux, check out Norman Dunbar's tutorial(http://qdosmsq.dunbar-it.co.uk/blog/2013/06/noobs-for-raspberry-pi/)
+***Copy the Raspbian(or any OS) image to the microSD card. Use #Ethcher on Window. If Linux, check out above link.
+***Plug the microSD card into Raspberry Pi, go for next step.
+
+Step two:
+***Find a TV, plug in the HDMI cable, connect it to Pi. Power up the Pi with USB charger connect to TV or laptop.
+***Note that ssh is off by default, laptop is not needed for this step. There's way to turn it on from laptop, but it takes time to get it right, so go get a TV.
+***Connect the Pi with keyboard, mouse, and a ethernet cable to router.
+***Turn the TV on, make sure it's in the right HDMI channel. Follow the step, the rasbian desktop will show up by the end.
+
+Step three:
+***In the Raspberry Pi Configuration, make sure ssh is turn on.
+***Turn on Terminal(ctrl+alt+t), get updates and install vncserver(or update).
+***Turn on VNC in the Raspberry Pi Configuration.
+
+Turn off, congratulation! You have a good working Pi now.
+
+Now go study the tutorials on how to remotly control Raspberry Pi on laptop.
