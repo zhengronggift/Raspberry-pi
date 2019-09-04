@@ -8,7 +8,7 @@ Step one:
 
 Step two:
 ***Find a TV, plug in the HDMI cable, connect it to Pi. Power up the Pi with USB charger connect to TV or laptop.
-***Note that ssh is off by default, laptop is not needed for this step. There's way to turn it on from laptop, but it takes time to get it right, so go get a TV.
+***Note that ssh is off by default, laptop is not needed for this step. There's a way to turn it on from laptop, but it takes time to get it right, so go get a TV or monitor.
 ***Connect the Pi with keyboard, mouse, and a ethernet cable to router.
 ***Turn the TV on, make sure it's in the right HDMI channel. Follow the step, the rasbian desktop will show up by the end.
 
@@ -18,5 +18,3 @@ Step three:
 ***Turn on VNC in the Raspberry Pi Configuration.
 
 Turn off, congratulation! You have a good working Pi now.
-
-Now go study the tutorials on how to remotly control Raspberry Pi on laptop.
