@@ -17,4 +17,10 @@ Step three:
 ***Turn on Terminal(ctrl+alt+t), get updates and install vncserver(or update).
 ***Turn on VNC in the Raspberry Pi Configuration.
 
-Turn off, congratulation! You have a good working Pi now.
+Step four:
+***Sign up for a VNC account or sign in if you have one.
+***Go to Raspberry Pi configuration, change the Resolution to 1080 or something bigger (depends on the PC monitor you going to code on)
+***Save
+
+Turn off, congratulation! You have a good working Pi now. 
+You can access the Pi directly by using VNC viewer without HDMI cable.
